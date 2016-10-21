@@ -43,14 +43,20 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/wvdDtBdq88.gif' title='Video Walkthrough' width='320px' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+<img src='http://g.recordit.co/lZTtsLxUAy.gif' title='Video Walkthrough' width='480px' alt='Video Walkthrough' />
+
+
+GIF created with Recordit.
 
 ## Notes
 
-I attempted to resize the placeholder images to be the same width as the poster/backdrop images but they show up really small. Does this have to do with screen density?
-I made `Movie` into a packagable so that it could be passed between activities.
+- I attempted to resize the placeholder images to be the same width as the poster/backdrop images but they show up really small. Does this have to do with screen density?
+- I made `Movie` into a packagable so that it could be passed between activities.
+- The stars on the rating bar don't show up in my emulator, although they show up in the 'design' tab, as well as my phone:
+
+<img src='https://scontent-sjc2-1.xx.fbcdn.net/v/t35.0-12/14796216_1297426976995838_515948664_o.jpg?oh=cd5accd0da6bb3a6fd171bfa43852149&oe=580CE51C' title='picture of rating bar' width='320px' alt='picture of rating bar' />
 
 ## Open-source libraries used
 
