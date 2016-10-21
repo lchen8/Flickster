@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorGold</item>
+        <item name="android:colorBackground">@color/colorDarkGrey</item>
+    </style>
+
+    <style name="MovieItem">
+        <item name="android:background">@drawable/movie_item_states</item>
+        <item name="android:padding">@dimen/movie_item_padding</item>
+    </style>
+
+    <style name="MovieImage">
+        <item name="android:layout_margin">@dimen/movie_content_margin</item>
+    </style>
+
+    <style name="MovieText">
+        <item name="android:paddingLeft">@dimen/movie_overview_padding</item>
+        <item name="android:paddingRight">@dimen/movie_overview_padding</item>
+    </style>
+
+    <style name="MovieText.Title">
+        <item name="android:textColor">@color/colorOffWhite</item>
+    </style>
+
+    <style name="MovieText.Body">
+        <item name="android:textColor">@color/colorMoreOffWhite</item>
+        <item name="android:layout_marginBottom">@dimen/movie_content_margin</item>
+    </style>
+
+    <style name="RatingBar" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">@color/colorLightGrey</item>
+        <item name="colorControlActivated">@color/colorGold</item>
+    </style>
+</resources>
